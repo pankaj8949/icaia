@@ -246,11 +246,11 @@ export default function UserSubmissionsPage() {
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                           <p className="text-sm font-medium text-muted-foreground mb-1">Institute Name</p>
-                          <p className="text-sm font-semibold text-foreground">IILM UNIVERSITY</p>
+                          <p className="text-sm font-semibold text-foreground">Kalindi College</p>
                         </div>
                         <div>
                           <p className="text-sm font-medium text-muted-foreground mb-1">Branch Name</p>
-                          <p className="text-sm font-semibold text-foreground">IILM University GN</p>
+                          <p className="text-sm font-semibold text-foreground">Kalindi College GN</p>
                         </div>
                       </div>
                       <div className="pt-2">

@@ -10,14 +10,14 @@ export default function AboutUniversityPage() {
                 <div className="flex flex-col md:flex-row gap-12 items-start">
                     <div className="md:w-2/3 text-gray-900 space-y-6 text-lg text-justify">
                         <p>
-                            The <b>School of Engineering</b> at IILM University prepares students to meet global industry
+                            The <b>School of Engineering</b> at Kalindi College prepares students to meet global industry
                             demands by fostering technical expertise, innovation, and sustainable problem-solving. It
                             offers diverse B.Tech programs in areas such as Biotechnology, Bioinformatics, Civil and Sustainable Infrastructure, Robotics & AI, and ECE in collaboration
                             with L&T.
 
                         </p>
                         <p>
-                            <b>The School of Sciences (SoS)</b> at IILM University provides a strong academic foundation
+                            <b>The School of Sciences (SoS)</b> at Kalindi College provides a strong academic foundation
                             across Physics, Chemistry, Mathematics, Forensic Science, and Environmental Science. Its
                             programs are designed to build scientific competence and support students pursuing
                             careers in various science disciplines. All undergraduate and postgraduate programs follow

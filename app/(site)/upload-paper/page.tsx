@@ -56,7 +56,7 @@ const categoryTable = [
 ];
 
 const bankDetails = [
-  ["Beneficiary Name", "IILM UNIVERSITY"],
+  ["Beneficiary Name", "Kalindi College"],
   ["Account Number", "10094813150"],
   ["IFSC Code", "IDFB0020154"],
   ["SWIFT Code", "IDFBINBBMUM"],
@@ -159,7 +159,7 @@ export default function UploadPaperPage() {
   ) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
-    
+
     if (touched[name]) {
       const error = validateField(name, value);
       setErrors({ ...errors, [name]: error });
@@ -184,7 +184,7 @@ export default function UploadPaperPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Mark all fields as touched
     const allFields = [
       "fullName",
@@ -199,7 +199,7 @@ export default function UploadPaperPage() {
     ];
     const newTouched: { [key: string]: boolean } = {};
     const newErrors: FormErrors = {};
-    
+
     allFields.forEach((field) => {
       newTouched[field] = true;
       const value = form[field as keyof typeof form];
@@ -208,17 +208,17 @@ export default function UploadPaperPage() {
         newErrors[field] = error;
       }
     });
-    
+
     setTouched(newTouched);
     setErrors(newErrors);
-    
+
     // Check if there are any errors
     if (Object.keys(newErrors).length > 0) {
       setStatus("Please fix the errors in the form before submitting.");
       setStatusType("error");
       return;
     }
-    
+
     setLoading(true);
     setStatus("");
     setStatusType("");
@@ -338,7 +338,7 @@ export default function UploadPaperPage() {
             </div>
           </CardContent>
         </Card>
-        
+
         {/* Payment Link */}
         <Card className="border-none shadow-medium overflow-hidden">
           <CardHeader className="bg-linear-to-r from-primary to-primary/90 text-white">
@@ -349,11 +349,11 @@ export default function UploadPaperPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm font-medium text-muted-foreground mb-1">Institute Name</p>
-                  <p className="text-sm font-semibold text-foreground">IILM UNIVERSITY</p>
+                  <p className="text-sm font-semibold text-foreground">Kalindi College</p>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-muted-foreground mb-1">Branch Name</p>
-                  <p className="text-sm font-semibold text-foreground">IILM University GN</p>
+                  <p className="text-sm font-semibold text-foreground">Kalindi College GN</p>
                 </div>
               </div>
               <div className="pt-2">
@@ -431,7 +431,7 @@ export default function UploadPaperPage() {
                     Account Creation
                   </p>
                   <p className="text-xs text-blue-800 dark:text-blue-200">
-                    By registering, you'll create an account that allows you to log in later to manage your submissions, 
+                    By registering, you'll create an account that allows you to log in later to manage your submissions,
                     view your registration status, and submit papers. Your password will be securely stored.
                   </p>
                 </div>
@@ -460,11 +460,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="Dr. John Doe"
                         required
-                        className={`transition-all duration-200 ${
-                          errors.fullName
+                        className={`transition-all duration-200 ${errors.fullName
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.fullName}
                         aria-describedby={errors.fullName ? "fullName-error" : undefined}
                       />
@@ -495,11 +494,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="john.doe@university.edu"
                         required
-                        className={`transition-all duration-200 ${
-                          errors.email
+                        className={`transition-all duration-200 ${errors.email
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.email}
                         aria-describedby={errors.email ? "email-error" : undefined}
                       />
@@ -530,11 +528,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="Create a secure password"
                         required
-                        className={`transition-all duration-200 pr-10 ${
-                          errors.password
+                        className={`transition-all duration-200 pr-10 ${errors.password
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.password}
                         aria-describedby={errors.password ? "password-error" : undefined}
                       />
@@ -577,11 +574,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="Re-enter your password"
                         required
-                        className={`transition-all duration-200 pr-10 ${
-                          errors.confirmPassword
+                        className={`transition-all duration-200 pr-10 ${errors.confirmPassword
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.confirmPassword}
                         aria-describedby={errors.confirmPassword ? "confirmPassword-error" : undefined}
                       />
@@ -624,11 +620,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="+91 98765 43210"
                         required
-                        className={`transition-all duration-200 ${
-                          errors.phone
+                        className={`transition-all duration-200 ${errors.phone
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.phone}
                         aria-describedby={errors.phone ? "phone-error" : undefined}
                       />
@@ -658,11 +653,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="University/Institution Name"
                         required
-                        className={`transition-all duration-200 ${
-                          errors.affiliation
+                        className={`transition-all duration-200 ${errors.affiliation
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.affiliation}
                         aria-describedby={errors.affiliation ? "affiliation-error" : undefined}
                       />
@@ -692,11 +686,10 @@ export default function UploadPaperPage() {
                         onBlur={handleBlur}
                         placeholder="India"
                         required
-                        className={`transition-all duration-200 ${
-                          errors.country
+                        className={`transition-all duration-200 ${errors.country
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.country}
                         aria-describedby={errors.country ? "country-error" : undefined}
                       />
@@ -723,11 +716,10 @@ export default function UploadPaperPage() {
                     >
                       <SelectTrigger
                         id="category"
-                        className={`w-full ${
-                          errors.category
+                        className={`w-full ${errors.category
                             ? "border-destructive focus:ring-destructive/20"
                             : ""
-                        }`}
+                          }`}
                         aria-invalid={!!errors.category}
                         aria-describedby={errors.category ? "category-error" : undefined}
                       >
@@ -760,11 +752,10 @@ export default function UploadPaperPage() {
                     >
                       <SelectTrigger
                         id="daysAttending"
-                        className={`w-full transition-all duration-200 ${
-                          errors.daysAttending
+                        className={`w-full transition-all duration-200 ${errors.daysAttending
                             ? "border-destructive focus:ring-destructive/20"
                             : "focus:ring-primary/20"
-                        }`}
+                          }`}
                         aria-invalid={!!errors.daysAttending}
                         aria-describedby={errors.daysAttending ? "daysAttending-error" : undefined}
                       >
@@ -824,13 +815,12 @@ export default function UploadPaperPage() {
               {/* Status Messages */}
               {status && (
                 <div
-                  className={`flex items-center gap-3 p-4 rounded-lg border animate-in fade-in duration-300 ${
-                    statusType === "error"
+                  className={`flex items-center gap-3 p-4 rounded-lg border animate-in fade-in duration-300 ${statusType === "error"
                       ? "bg-destructive/10 border-destructive/20 text-destructive"
                       : statusType === "success"
-                      ? "bg-green-500/10 border-green-500/20 text-green-700 dark:text-green-400"
-                      : "bg-primary/10 border-primary/20 text-primary"
-                  }`}
+                        ? "bg-green-500/10 border-green-500/20 text-green-700 dark:text-green-400"
+                        : "bg-primary/10 border-primary/20 text-primary"
+                    }`}
                 >
                   {statusType === "error" ? (
                     <XCircle className="w-5 h-5 shrink-0" />
@@ -892,7 +882,7 @@ export default function UploadPaperPage() {
                 Account Created Successfully
               </p>
               <p className="text-sm text-muted-foreground">
-                Your account has been created and you've been automatically logged in. 
+                Your account has been created and you've been automatically logged in.
                 You can now access your user panel to manage your submissions and view your registration details.
               </p>
             </div>

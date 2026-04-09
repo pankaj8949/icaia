@@ -24,13 +24,13 @@ const conveners = [
         image: "https://iilm.ac.in/uploads/all/422/conversions/AK-JAIN-350x240-full.webp",
         name: "Prof. A.K. Jain",
         role: "Convener",
-        affiliation: "IILM University, Greater Noida",
+        affiliation: "Kalindi College, Greater Noida",
     },
     {
         image: "/images/speakers/dr-narendra.jpeg",
         name: "Prof. Narendra Kumar",
         role: "Co Convener",
-        affiliation: "IILM University, Greater Noida",
+        affiliation: "Kalindi College, Greater Noida",
     },
     {
         image: "/images/speakers/nazarov-fayzullo.jpeg",
@@ -45,19 +45,19 @@ const organizingSecretaries = [
         image: "https://iilm.ac.in/uploads/all/439/conversions/Artboard-18-350x240-full.webp",
         name: "Dr. Nidhi Puri",
         role: "Organising Secretary",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         image: "/images/user.jpg",
         name: "Dr. Arpit Varshney",
         role: "Organising Secretary",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         image: "/images/user.jpg",
         name: "Dr. KM Bala",
         role: "Organising Secretary",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         image: "/images/user.jpg",
@@ -71,32 +71,32 @@ const organizingCommittee = [
     {
         name: "Dr. Priyanka Bhatnagar",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         name: "Dr. Nidhi Puri",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         name: "Dr. Vanya",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         name: "Dr. Bharti",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         name: "Dr. Pankaj",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     },
     {
         name: "Dr. Lalit",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida"
+        affiliation: "Kalindi College, Greater Noida"
     }
 ];
 
@@ -118,8 +118,8 @@ export default function ConferenceChairPage() {
                     role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
                     image: m.image
                 }))} />
-<br />
-<br />
+                <br />
+                <br />
                 {conferenceChair.length > 0 && (
                     <>
                         <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Conference Chair</h2>

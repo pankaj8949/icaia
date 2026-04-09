@@ -76,7 +76,7 @@ export default function AccommodationOptionsPage() {
                 </span>.
               </p>
               <p>
-                To ensure a comfortable and convenient stay, IILM University, Greater Noida has partnered
+                To ensure a comfortable and convenient stay, Kalindi College, Greater Noida has partnered
                 with premium hotels located within close proximity to the conference venue.
               </p>
             </div>
@@ -198,7 +198,7 @@ export default function AccommodationOptionsPage() {
                   Transportation Details
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  IILM University, Greater Noida is well connected to Delhi, Ghaziabad, Meerut, and Agra
+                  Kalindi College, Greater Noida is well connected to Delhi, Ghaziabad, Meerut, and Agra
                   by highways. You can reach us by <span className="font-semibold">metro</span> (Knowledge Park 02 Metro Station,
                   Aqua Line), <span className="font-semibold">bus</span>, <span className="font-semibold">cab</span>, or other public transport options.
                 </p>

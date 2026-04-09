@@ -6,12 +6,12 @@ export default function AboutUniversityPage() {
         <div className="bg-white">
             <AboutHeader title="University Profile" overlayColor='#d0224a' bgImage='/images/iilm/iilm_uni_back.webp' />
             <div className="container mx-auto px-4 py-16">
-                <SectionHeader title="IILM University Greater, Noida" />
+                <SectionHeader title="Kalindi College Greater, Noida" />
                 <div className="flex flex-col md:flex-row gap-12 items-start">
                     {/* Left: Text Content */}
                     <div className="md:w-2/3 text-gray-900 space-y-6 text-lg text-justify">
                         <p>
-                            <b>IILM University, Greater Noida</b>, established under the Uttar Pradesh Private University (Amendment) Act 2022, is a young and progressive institution focused on academic excellence, innovation, and holistic student development. Located in the educational hub of Greater Noida, it provides a vibrant and globally oriented learning environment with strong industry exposure. The university is built on the principles of inclusivity, integrity, and quality, aiming to offer a transformative educational experience.
+                            <b>Kalindi College, Greater Noida</b>, established under the Uttar Pradesh Private University (Amendment) Act 2022, is a young and progressive institution focused on academic excellence, innovation, and holistic student development. Located in the educational hub of Greater Noida, it provides a vibrant and globally oriented learning environment with strong industry exposure. The university is built on the principles of inclusivity, integrity, and quality, aiming to offer a transformative educational experience.
 
                             <br></br>
                             It offers diverse undergraduate, postgraduate, and doctoral programs across Management, Law, Engineering, Sciences, Liberal Arts, and Social Sciences. The curriculum blends academic rigor with real-world relevance to prepare students for modern professional challenges. Beyond academics, the university emphasizes critical thinking, creativity, leadership, and overall personality development.
