@@ -12,39 +12,30 @@ const CommitteeMemberGrid = ({ members }: { members: { name: string, role: strin
     </div>
 );
 
+const welcomeCommittee = [
+    { name: "Dr. Vandana Gupta", role: "Associate Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Shalini Sharma", role: "Associate Professor, Kalindi College, University of Delhi" },
+    { name: "Prof. Nidhi Arora", role: "Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Sweety Kataria", role: "Associate Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Reena Jain", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Rajani", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Dharmendra Kumar Meena", role: "Assistant Professor (TIC), Kalindi College, University of Delhi" },
+    { name: "Mr. Rajeev Kumar Rai", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Sushil Malik", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Ruby Gupta", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Ms. Neha Singh", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Ms. Mamta", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Dr. Anshula Sangwan", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Ms. Kanishka Solanki", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Mrs. Asha Khantwal", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
+    { name: "Mrs. Mamta Sachdeva", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
+];
+
 const technicalCommittee = [
-    { name: "Dr. Pankaj", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Chhavi Pahawa", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Pawan Soni", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Anupama Srivastava", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Avdhesh Gupta", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. K.M. Bala", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Umesh Sharma", role: "GLA University, Mathura" },
-    { name: "Dr. Sansar Singh", role: "GL Bajaj, Gr. Noida" },
-    { name: "Dr. Risha Jashmin Nathan", role: "ARU, UK" },
-    { name: "Dr. Tokeer Ahmed", role: "JMI, New Delhi" },
-    { name: "Dr. Kapil Dev", role: "JD, FSL, Ghaziabad" },
-    { name: "Dr. Antony George", role: "Friedrich Schiller University, Jena, Germany" },
-    { name: "Dr. Ali Raza", role: "BOWIE University, USA" },
-    { name: "Dr. Vinti Dhaka", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Shikha", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Vipul Kumar", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Manish Kumar", role: "ARSD College, DU" },
-    { name: "Dr. Suneet Kuma", role: "Senior Scientific Officer, FSL-Moradabad" },
-    { name: "Prof. (Dr.) Shubham Tiwari", role: "ABES, Ghaziabad" },
-    { name: "Prof. (Dr.) Kedar Singh", role: "JNU" },
-    { name: "Prof. (Dr.) OP Thakur", role: "NSUT, Delhi" },
-    { name: "Prof. (Dr.) Geeta Singh", role: "DTU" },
-    { name: "Dr. Nupur Mathur", role: "Teri" },
-    { name: "Dr. Ashutosh Kumar", role: "TIET" },
-    { name: "Dr. Pragya Ranjan Rout", role: "NIT Jalandhar" },
-    { name: "Dr. Bikash Koli Dey", role: "SRMU, Chennai" },
-    { name: "Dr. Selva Bharti", role: "SRMU, Chennai" },
-    { name: "Dr. Roopam Singh", role: "VIT, Chennai" },
-    { name: "Dr. Roma Chandra", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Garima Gupta", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Muneeb Malik", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Monu", role: "Kalindi College, Greater Noida" },
+    { name: "Mr Rajeev Kumar Rai", role: "Kalindi College University of Delhi" },
+    { name: "Ms Neha Singh", role: "Kalindi College University of Delhi" },
+    { name: "Ms Mamta", role: "Kalindi College University of Delhi" },
+    { name: "Ms Kanishka Solanki", role: "Kalindi College University of Delhi" },
 ];
 
 const technicalSessionCommittee = [
@@ -172,6 +163,7 @@ export default function OtherCommitteesPage() {
                 dividerColor="primary"
             />
             <div className="max-w-7xl mx-auto px-4 py-12">
+                <Section title="Welcome Committee" members={welcomeCommittee} />
                 <Section title="Technical Committee" members={technicalCommittee} />
                 <Section title="Technical Session Committee" members={technicalSessionCommittee} />
                 <Section title="Food Committee" members={foodCommittee} />

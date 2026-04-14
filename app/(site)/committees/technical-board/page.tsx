@@ -3,21 +3,18 @@ import AboutHeader from "@/components/common/AboutHeader";
 import CommitteeMemberGrid from "@/components/common/CommitteeMemberGrid";
 
 const internationalAdvisoryBoard = [
-  { name: "Dr. Ilona Paweloszek", role: "Częstochowa University of Technology, Poland" },
-  { name: "Dr. Dalia Younis", role: "AASTMT University, Egypt" },
-  { name: "Dr. Raya Karlibaeva", role: "Tashkent State University of Economics, Uzbekistan" },
-  { name: "Dr. Aysun Kahraman", role: "USA" },
-  { name: "Dr. Manuel Malaver de la Fuente", role: "Maritime University of the Caribbean, Venezuela" },
-  { name: "Dr. Andreas Gimsa", role: "Stirling Technology Institut gemeinnützige GmbH, Potsdam, Germany" },
-  { name: "Dr. Ertan Gudekli", role: "Istanbul University, Turkey" },
-  { name: "Dr. Rajan Iyer", role: "Environmental Materials Theoretical Physics, Arizona, USA" },
-  { name: "Dr. Sidney Soares Filho", role: "University of Fortaleza (UNIFOR), Brazil" },
-  { name: "Dr. Gulshat Karlibaeva", role: "Tashkent State University of Economics, Uzbekistan" },
-  { name: "Dr. Liliana Guran", role: "Babeș-Bolyai University, Romania" },
-  { name: "Dr. Monika Bota", role: "Babeș-Bolyai University, Romania" },
-  { name: "Dr. Devendra Kumar", role: "CET, Oman" },
-  { name: "Dr. Magdalena Rzemieniak", role: "Lublin University of Technology, Poland" },
-  { name: "Dr. Leszek Ziora", role: "Częstochowa University of Technology, Poland" },
+  {
+    name: "Dr. Raya Karlibaeva",
+    role: "Professor, Tashkent State University of Economics, Uzbekistan",
+  },
+  {
+    name: "Dr. Dorota Jelonek",
+    role: "Czestochowa University of Technology, Poland",
+  },
+  {
+    name: "Dr. Lilla Knop",
+    role: "Professor, Silesian University of Technology, Poland",
+  },
 ];
 
 const nationalAdvisoryBoard: { name: string; role: string }[] = [

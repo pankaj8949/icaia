@@ -5,10 +5,19 @@ import CommitteeMemberGrid from "@/components/common/CommitteeMemberGrid";
 const chiefPatron = [
     {
         image: "/images/user.jpg",
-        name: "Prof (Dr) Taruna Gautam",
+        name: "Prof. (Dr.) Meena Charanda",
         role: "Principal",
-        affiliation: "Kalindi College, Delhi University, Delhi",
+        affiliation: "Kalindi College, University of Delhi",
     }
+];
+
+const specialGuest = [
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Nihar Amonkar",
+        role: "VC",
+        affiliation: "IILM University, Greater Noida, India",
+    },
 ];
 
 const conferenceChair: { image: string; name: string; role: string; affiliation: string }[] = [
@@ -21,82 +30,155 @@ const internationalChair: { image: string; name: string; role: string; affiliati
 
 const conveners = [
     {
-        image: "https://iilm.ac.in/uploads/all/422/conversions/AK-JAIN-350x240-full.webp",
-        name: "Prof. A.K. Jain",
+        image: "/images/user.jpg",
+        name: "Dr. Dharmendra Kumar Meena",
         role: "Convener",
-        affiliation: "Kalindi College, Greater Noida",
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
-        image: "/images/speakers/dr-narendra.jpeg",
-        name: "Prof. Narendra Kumar",
-        role: "Co Convener",
-        affiliation: "Kalindi College, Greater Noida",
+        image: "/images/user.jpg",
+        name: "Dr. Ruby Gupta",
+        role: "Convener",
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
-        image: "/images/speakers/nazarov-fayzullo.jpeg",
-        name: "Dr. Nazarov Fayzullo",
+        image: "/images/user.jpg",
+        name: "Ms. Neha Singh",
         role: "Co Convener",
-        affiliation: "Uzbekistan",
+        affiliation: "Kalindi College, University of Delhi",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Reena Jain",
+        role: "Co Convener",
+        affiliation: "Kalindi College, University of Delhi",
     },
 ];
 
 const organizingSecretaries = [
     {
-        image: "https://iilm.ac.in/uploads/all/439/conversions/Artboard-18-350x240-full.webp",
-        name: "Dr. Nidhi Puri",
+        image: "/images/user.jpg",
+        name: "Dr. Rajani",
         role: "Organising Secretary",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
         image: "/images/user.jpg",
-        name: "Dr. Arpit Varshney",
+        name: "Dr. Sushil Malik",
         role: "Organising Secretary",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
         image: "/images/user.jpg",
-        name: "Dr. KM Bala",
+        name: "Dr. Anshula Sangwan",
         role: "Organising Secretary",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
-        image: "/images/user.jpg",
-        name: "Dr. Yarmatov Sherzodjon",
+        image: "/images/speakers/dr-narendra.jpeg",
+        name: "Dr. Narendra Kumar",
         role: "Organising Secretary",
-        affiliation: "Samarkand State University, Uzbekistan"
-    }
+        affiliation: "IILM University, Greater Noida",
+    },
 ];
 
-const organizingCommittee = [
+type OrganizingCommitteeEntry = {
+    name: string;
+    role: string;
+    affiliation: string;
+    image?: string;
+};
+
+const organizingCommittee: OrganizingCommitteeEntry[] = [
     {
-        name: "Dr. Priyanka Bhatnagar",
+        name: "Dr Rakesh M Patel",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Government of College of Science Gandhi Nagar, India"
     },
     {
-        name: "Dr. Nidhi Puri",
+        name: "Dr Indu Sharma",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "NIMS University, Jaipur, India"
     },
     {
-        name: "Dr. Vanya",
+        name: "Dr Pankaj",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "IILM University, Greater Noida, India"
     },
     {
-        name: "Dr. Bharti",
+        name: "Dr Rajeev",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "IILM University, Greater Noida, India"
     },
     {
-        name: "Dr. Pankaj",
+        name: "Dr. Vandana Gupta",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Kalindi College, University of Delhi"
     },
     {
-        name: "Dr. Lalit",
+        name: "Dr. Shalini Sharma",
         role: "Organising Committee",
-        affiliation: "Kalindi College, Greater Noida"
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Prof.  (Dr.) Nidhi Arora",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Sweety Kataria",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Reena Jain",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Rajani",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Dharmendra Kumar Meena",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Sushil Malik",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Ruby Gupta",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Anshula Sangwan",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Mr. Rajeev Kumar Rai",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Neha Singh",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Mamta",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Kanishka Solanki",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
     }
 ];
 
@@ -114,6 +196,13 @@ export default function ConferenceChairPage() {
 
                 <h2 className="text-3xl md:text-4xl font-bold mb-8">Chief Patron</h2>
                 <CommitteeMemberGrid members={chiefPatron.map(m => ({
+                    name: m.name,
+                    role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
+                    image: m.image
+                }))} />
+
+                <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Special Guest</h2>
+                <CommitteeMemberGrid members={specialGuest.map(m => ({
                     name: m.name,
                     role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
                     image: m.image
@@ -157,7 +246,7 @@ export default function ConferenceChairPage() {
                 }))} />
 
                 <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Organizing Committee</h2>
-                <CommitteeMemberGrid members={organizingCommittee.map((m: any) => ({
+                <CommitteeMemberGrid members={organizingCommittee.map((m) => ({
                     name: m.name,
                     role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
                     image: m.image ?? "/images/user.jpg"
