@@ -43,7 +43,7 @@ const conveners = [
     },
     {
         image: "/images/user.jpg",
-        name: "Ms. Neha Singh",
+        name: "Dr. Sushil Malik",
         role: "Co Convener",
         affiliation: "Kalindi College, University of Delhi",
     },
@@ -58,15 +58,27 @@ const conveners = [
 const organizingSecretaries = [
     {
         image: "/images/user.jpg",
-        name: "Dr. Rajani",
+        name: "Dr. Vendna Gupta",
         role: "Organising Secretary",
         affiliation: "Kalindi College, University of Delhi",
     },
     {
         image: "/images/user.jpg",
-        name: "Dr. Sushil Malik",
+        name: "Dr. Shalini Sharma",
         role: "Organising Secretary",
         affiliation: "Kalindi College, University of Delhi",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Sweety Kataria",
+        role: "Organising Secretary",
+        affiliation: "Kalindi College, University of Delhi",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Rajani",
+        role: "Organising Secretary",
+        affiliation: "IILM University, Greater Noida",
     },
     {
         image: "/images/user.jpg",
@@ -75,10 +87,10 @@ const organizingSecretaries = [
         affiliation: "Kalindi College, University of Delhi",
     },
     {
-        image: "/images/speakers/dr-narendra.jpeg",
-        name: "Dr. Narendra Kumar",
+        image: "/images/user.jpg",
+        name: "Prof. (Dr.) Nidhi Arora ",
         role: "Organising Secretary",
-        affiliation: "IILM University, Greater Noida",
+        affiliation: "Kalindi College, University of Delhi",
     },
 ];
 

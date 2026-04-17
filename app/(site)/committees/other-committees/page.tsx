@@ -36,6 +36,8 @@ const technicalCommittee = [
     { name: "Ms Neha Singh", role: "Kalindi College University of Delhi" },
     { name: "Ms Mamta", role: "Kalindi College University of Delhi" },
     { name: "Ms Kanishka Solanki", role: "Kalindi College University of Delhi" },
+    { name: "Ms Mamta Sachdeva", role: "Kalindi College University of Delhi" },
+    { name: "Asha Khantwal", role: "Kalindi College University of Delhi" },
 ];
 
 const technicalSessionCommittee = [
