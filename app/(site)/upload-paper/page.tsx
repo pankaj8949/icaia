@@ -43,16 +43,11 @@ import { CONSTANTS } from "@/lib/constants";
 import { registerUser, type RegistrationData } from "@/lib/registration";
 
 const categoryTable = [
-  ["Student (Poster Presentation) IILM Only", "₹500/-"],
-  ["Student (Poster Presentation) Non-IILM", "₹750/-"],
-  ["Research Scholars/Faculty - IILM Only (Oral/Poster)", "₹1500/-"],
-  ["Research Scholars/Faculty - Non-IILM (Oral/Poster)", "₹2000/-"],
-  ["Research Scholars/Faculty - IILM Only (Oral/Poster + Publication in Peer Reviewed Journals)", "₹2500/-"],
-  ["Research Scholars/Faculty - Non-IILM (Oral/Poster + Publication in Peer Reviewed Journals)", "₹3000/-"],
-  ["Research Scholars/Faculty - IILM Only (Oral/Poster + Publication in Proceedings)", "₹1500/- + APC Charges"],
-  ["Research Scholars/Faculty - Non-IILM (Oral/Poster + Publication in Proceedings)", "₹2000/- + APC Charges"],
-  ["Research Scholars/Faculty - IILM Only (Oral/Poster + Publication in Scopus Journals)", "₹1500/- + APC Charges"],
-  ["Research Scholars/Faculty - Non-IILM (Oral/Poster + Publication in Scopus Journals)", "₹2000/- + APC Charges"],
+  ["Student (Poster Presentation) ", "₹1000/-"],
+  ["Research Scholars/Faculty - (Oral/Poster)", "₹2000/-"],
+  ["Research Scholars/Faculty - (Oral/Poster + Publication in Peer Reviewed Journals)", "₹3000/-"],
+  ["Research Scholars/Faculty - (Oral/Poster + Publication in Proceedings)", "₹2000/- + APC Charges"],
+  ["Research Scholars/Faculty - (Oral/Poster + Publication in Scopus Journals)", "₹2000/- + APC Charges"],
 ];
 
 const bankDetails = [
@@ -61,7 +56,7 @@ const bankDetails = [
   ["IFSC Code", "IDFB0020154"],
   ["SWIFT Code", "IDFBINBBMUM"],
   ["Bank Name", "IDFC FIRST BANK"],
-  ["Branch", "GREATER NOIDA BRANCH"],
+  ["Branch", "University of Delhi BRANCH"],
 ];
 
 
@@ -461,8 +456,8 @@ export default function UploadPaperPage() {
                         placeholder="Dr. John Doe"
                         required
                         className={`transition-all duration-200 ${errors.fullName
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.fullName}
                         aria-describedby={errors.fullName ? "fullName-error" : undefined}
@@ -495,8 +490,8 @@ export default function UploadPaperPage() {
                         placeholder="john.doe@university.edu"
                         required
                         className={`transition-all duration-200 ${errors.email
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.email}
                         aria-describedby={errors.email ? "email-error" : undefined}
@@ -529,8 +524,8 @@ export default function UploadPaperPage() {
                         placeholder="Create a secure password"
                         required
                         className={`transition-all duration-200 pr-10 ${errors.password
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.password}
                         aria-describedby={errors.password ? "password-error" : undefined}
@@ -575,8 +570,8 @@ export default function UploadPaperPage() {
                         placeholder="Re-enter your password"
                         required
                         className={`transition-all duration-200 pr-10 ${errors.confirmPassword
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.confirmPassword}
                         aria-describedby={errors.confirmPassword ? "confirmPassword-error" : undefined}
@@ -621,8 +616,8 @@ export default function UploadPaperPage() {
                         placeholder="+91 98765 43210"
                         required
                         className={`transition-all duration-200 ${errors.phone
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.phone}
                         aria-describedby={errors.phone ? "phone-error" : undefined}
@@ -654,8 +649,8 @@ export default function UploadPaperPage() {
                         placeholder="University/Institution Name"
                         required
                         className={`transition-all duration-200 ${errors.affiliation
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.affiliation}
                         aria-describedby={errors.affiliation ? "affiliation-error" : undefined}
@@ -687,8 +682,8 @@ export default function UploadPaperPage() {
                         placeholder="India"
                         required
                         className={`transition-all duration-200 ${errors.country
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.country}
                         aria-describedby={errors.country ? "country-error" : undefined}
@@ -717,8 +712,8 @@ export default function UploadPaperPage() {
                       <SelectTrigger
                         id="category"
                         className={`w-full ${errors.category
-                            ? "border-destructive focus:ring-destructive/20"
-                            : ""
+                          ? "border-destructive focus:ring-destructive/20"
+                          : ""
                           }`}
                         aria-invalid={!!errors.category}
                         aria-describedby={errors.category ? "category-error" : undefined}
@@ -753,8 +748,8 @@ export default function UploadPaperPage() {
                       <SelectTrigger
                         id="daysAttending"
                         className={`w-full transition-all duration-200 ${errors.daysAttending
-                            ? "border-destructive focus:ring-destructive/20"
-                            : "focus:ring-primary/20"
+                          ? "border-destructive focus:ring-destructive/20"
+                          : "focus:ring-primary/20"
                           }`}
                         aria-invalid={!!errors.daysAttending}
                         aria-describedby={errors.daysAttending ? "daysAttending-error" : undefined}
@@ -816,10 +811,10 @@ export default function UploadPaperPage() {
               {status && (
                 <div
                   className={`flex items-center gap-3 p-4 rounded-lg border animate-in fade-in duration-300 ${statusType === "error"
-                      ? "bg-destructive/10 border-destructive/20 text-destructive"
-                      : statusType === "success"
-                        ? "bg-green-500/10 border-green-500/20 text-green-700 dark:text-green-400"
-                        : "bg-primary/10 border-primary/20 text-primary"
+                    ? "bg-destructive/10 border-destructive/20 text-destructive"
+                    : statusType === "success"
+                      ? "bg-green-500/10 border-green-500/20 text-green-700 dark:text-green-400"
+                      : "bg-primary/10 border-primary/20 text-primary"
                     }`}
                 >
                   {statusType === "error" ? (

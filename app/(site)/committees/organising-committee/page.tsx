@@ -3,12 +3,12 @@ import AboutHeader from "@/components/common/AboutHeader";
 import CommitteeMemberGrid from "@/components/common/CommitteeMemberGrid";
 
 const organizingCommitteeMembers = [
-    { name: "Dr. Priyanka Bhatnagar", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Nidhi Puri", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Vanya", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Bharti", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Pankaj", role: "Kalindi College, Greater Noida" },
-    { name: "Dr. Lalit", role: "Kalindi College, Greater Noida" },
+    { name: "Dr. Priyanka Bhatnagar", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Nidhi Puri", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Vanya", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Bharti", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Pankaj", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Lalit", role: "Kalindi College, University of Delhi" },
 ];
 
 export default function OrganizingCommitteePage() {

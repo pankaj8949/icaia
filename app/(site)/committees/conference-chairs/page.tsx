@@ -16,7 +16,7 @@ const specialGuest = [
         image: "/images/user.jpg",
         name: "Dr. Nihar Amonkar",
         role: "VC",
-        affiliation: "IILM University, Greater Noida, India",
+        affiliation: "IILM University, University of Delhi, India",
     },
 ];
 
@@ -78,7 +78,7 @@ const organizingSecretaries = [
         image: "/images/user.jpg",
         name: "Dr. Rajani",
         role: "Organising Secretary",
-        affiliation: "IILM University, Greater Noida",
+        affiliation: "IILM University, University of Delhi",
     },
     {
         image: "/images/user.jpg",
@@ -115,12 +115,12 @@ const organizingCommittee: OrganizingCommitteeEntry[] = [
     {
         name: "Dr Pankaj",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida, India"
+        affiliation: "IILM University, University of Delhi, India"
     },
     {
         name: "Dr Rajeev",
         role: "Organising Committee",
-        affiliation: "IILM University, Greater Noida, India"
+        affiliation: "IILM University, University of Delhi, India"
     },
     {
         name: "Dr. Vandana Gupta",
@@ -189,6 +189,156 @@ const organizingCommittee: OrganizingCommitteeEntry[] = [
     },
     {
         name: "Ms. Kanishka Solanki",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Aprajita Gaur",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Renu Bala",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Shilpika Bali Mehta",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Meenakshi Verma",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Upasana Issar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Rajesh Kumar Meena",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Kapil Mohan Saini",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Rajita",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Shweta Gupta",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Shiv Kumar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Sajid Iqbal",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Yogesh Kumar Sharma",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Geeta Devi Yadav",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Anjali Sehrawat",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Anshu Chotani",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Neelam Bareja",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Charu Khanna",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Anju Rattan",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Anju Gupta",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Abhishek Kumar Singh",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Mr. Sanjay Kumar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Mohd Nadeem",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Mr. Avneesh Kumar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Garima Gaur",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Mr. Hari Kishan Bhardwaj",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Tajender Kumar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Rajni Kanwar",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Sunder Pal",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Ms. Anjali",
+        role: "Organising Committee",
+        affiliation: "Kalindi College, University of Delhi"
+    },
+    {
+        name: "Dr. Manish Kumar",
         role: "Organising Committee",
         affiliation: "Kalindi College, University of Delhi"
     }

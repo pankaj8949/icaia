@@ -1,51 +1,44 @@
 import React from "react";
-import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import AboutHeader from "@/components/common/AboutHeader";
 import { MapPin, Star, ExternalLink } from "lucide-react"; // Optional icons
-import { CONSTANTS } from "@/lib/constants";
 
 const hotels = [
   {
-    name: "Hotel Radisson Blu",
-    location: "Greater Noida",
-    image: "https://r1imghtlak.mmtcdn.com/a918a09c291e11e5b5850022195573b9.jfif",
-    link: "https://www.ihg.com/intercontinental/hotels/gb/en/manama/bahha/hoteldetail",
-    note: `Select <b>${CONSTANTS.COLLAGE_NAME}</b> as Rate Reference.`,
-    rating: "4.5",
-  },
-  {
-    name: "Hotel Ginger",
-    location: "Greater Noida",
-    image: "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/htl-imgs/202001082231075367-1c06e132496c11ea9ffc0242ac110003.jpg",
-    link: "https://eur06.safelinks.protection.outlook.com/?url=http%3A%2F%2Froho.it%2Fbgmg&data=05%7C02%7Ccrbansolay%40utb.edu.bh%7Ccfa6045b6ccb425e426e08ddabdfcfc4%7Cc599d08d7ffd46c98e6ccc8b13dbba77%7C0%7C0%7C638855699924365403%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=qiBIKXnECK6lFPOIUs5Uap3y7%2BmHuA%2FUiRO1tn3Xm4Y%3D&reserved=0",
-    note: `Select <b>${CONSTANTS.COLLAGE_NAME}</b> as Rate Reference.`,
+    name: "Hotel Pals Inn",
+    location: "New Delhi",
+    image: "https://pix8.agoda.net/property/56090686/0/2b404de6e283713cc82d78f6fd6f30e7.jpeg?ce=0&s=1024x",
+    link: "https://www.palsinn.com/",
     rating: "4.0",
   },
   {
-    name: "Hotel Le Seasons",
-    location: "Greater Noida",
-    image: "https://cf.bstatic.com/xdata/images/hotel/square600/471016173.webp?k=068237c2898ed4513c0aa63f585408283f96efeef2f83e335af7260893344e5e&o=",
-    link: "https://all.accor.com/hotel/6702/index.en.shtml",
-    note: `Select <b>${CONSTANTS.COLLAGE_NAME}</b> as Rate Reference.`,
-
-    rating: "4.2",
-  },
-  {
-    name: "Udman Hotel",
-    location: "Greater Noida",
-    image: "https://cf.bstatic.com/xdata/images/hotel/square600/311346165.webp?k=80a9ccd691d491837af7a481f1f600ea1cddb123b36e0d73a57be132d8ac9f8a&o=",
-    link: "http://www.westincitycentrebahrain.com/",
-    note: `Select <b>${CONSTANTS.COLLAGE_NAME}</b> as Rate Reference.`,
-    rating: "4.3",
-  },
-  {
-    name: "Expo Inn",
-    location: "Greater Noida",
-    image: "https://lh3.googleusercontent.com/p/AF1QipP5F7YTbB8vK7W4E5DLZ86E0my6WeWuhv75NbB2=s680-w680-h510-rw",
-    link: "http://www.lemeridienbahraincitycentre.com/",
-    note: `Select <b>${CONSTANTS.COLLAGE_NAME}</b> as Rate Reference.`,
+    name: "Hotel S & B East Inn",
+    location: "New Delhi",
+    image: "https://hotelsnbeastinn.com/assets/slides/park.jpg",
+    link: "https://hotelsnbeastinn.com/",
     rating: "3.8",
+  },
+  {
+    name: "FabHotel Galaxy",
+    location: "New Delhi",
+    image: "https://pimg.fabhotels.com//propertyimages/918/images/photos-fabhotel-galaxy-eefatnwx-new-delhi-Hotels_1751545357895.jpg?w=326&h=326",
+    link: "https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-galaxyhttps://lh3.googleusercontent.com/p/AF1QipMKxMCNwt4HtQ2XlcfZQI5K2TpgfMVH1QmDXeID=s1360-w1360-h1020-eefatnwx.html?utm_source=GMB&utm_medium=organic&utm_campaign=GMB_Traffic&city=new-delhi&hotel=fabhotel-galaxy-eefatnwx&checkIn=2026-04-20&checkOut=2026-04-21&guests=2",
+    rating: "3.5",
+  },
+  {
+    name: "HOTEL Singh Continental",
+    location: "New Delhi",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/4e/72/91/treebo-trend-sisley-the.jpg?w=1400&h=-1&s=1",
+    link: "https://hotelsinghcontinental.com/",
+    rating: "4.1",
+  },
+  {
+    name: "Hotel Le Roi Express",
+    location: "Karol Bagh, New Delhi",
+    image: "https://assets.simplotel.com/simplotel/image/upload/w_5000,h_3327/x_0,y_257,w_5000,h_2813,r_0,c_crop/q_80,w_900,dpr_1,f_auto,fl_progressive,c_limit/hotel-le-roi-express-karol-bagh/Facade_2_ohj786",
+    link: "https://www.leroihotels.com/le-roi-express-karol-bagh/",
+    rating: "4.2",
   },
 ];
 
@@ -76,7 +69,7 @@ export default function AccommodationOptionsPage() {
                 </span>.
               </p>
               <p>
-                To ensure a comfortable and convenient stay, Kalindi College, Greater Noida has partnered
+                To ensure a comfortable and convenient stay, Kalindi College, University of Delhi has partnered
                 with premium hotels located within close proximity to the conference venue.
               </p>
             </div>
@@ -155,13 +148,6 @@ export default function AccommodationOptionsPage() {
                     </div>
                   </div>
 
-                  {/* Note/Instructions */}
-                  {hotel.note && (
-                    <CardDescription
-                      className="text-sm text-gray-700 leading-relaxed mb-6 bg-blue-50 p-4 rounded-lg border border-blue-100"
-                      dangerouslySetInnerHTML={{ __html: hotel.note }}
-                    />
-                  )}
 
                   {/* Button */}
                   <Button
@@ -198,7 +184,7 @@ export default function AccommodationOptionsPage() {
                   Transportation Details
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Kalindi College, Greater Noida is well connected to Delhi, Ghaziabad, Meerut, and Agra
+                  Kalindi College, University of Delhi is well connected to Delhi, Ghaziabad, Meerut, and Agra
                   by highways. You can reach us by <span className="font-semibold">metro</span> (Knowledge Park 02 Metro Station,
                   Aqua Line), <span className="font-semibold">bus</span>, <span className="font-semibold">cab</span>, or other public transport options.
                 </p>

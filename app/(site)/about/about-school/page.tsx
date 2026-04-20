@@ -35,8 +35,8 @@ export default function AboutUniversityPage() {
                     </div>
                     <div className="md:w-1/3 w-full flex justify-center md:justify-end">
                         <img
-                            src="https://iilm.ac.in/uploads/all/40/conversions/Group-20050-(1)-full.webp"
-                            alt="Arya College, Jaipur"
+                            src="https://images.shiksha.com/mediadata/images/1544001278phpxSUex0.jpeg"
+                            alt="Kalindi College, University of Delhi"
                             className="shadow-lg w-full max-w-md object-contain"
                         />
                     </div>

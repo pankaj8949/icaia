@@ -26,7 +26,7 @@ const partners: Partner[] = [
     },
     {
         name: "IILM University",
-        region: "Greater Noida, India",
+        region: "University of Delhi, India",
         image:
             "https://ictbpai.iilm.edu/wp-content/uploads/2025/05/Greater-Noida-Campus_2.jpg",
         imageAlt: "IILM University campus",
