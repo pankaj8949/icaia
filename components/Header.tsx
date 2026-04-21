@@ -82,7 +82,7 @@ const Header = () => {
                 <nav className="flex justify-between items-center">
                     <div className="text-2xl font-bold">
                         <Link href="/">
-                            <Image src={'/images/kalindicollege/logo.png'} alt='Kalindi College Logo' width={200} height={100} />
+                            <Image src={'/images/kalindicollege/logo.png'} alt='Kalindi College Logo' width={200} height={100} style={{ height: 'auto' }} />
                         </Link>
                     </div>
                     <div className="hidden md:flex space-x-6 items-center">

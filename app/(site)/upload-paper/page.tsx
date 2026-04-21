@@ -51,12 +51,12 @@ const categoryTable = [
 ];
 
 const bankDetails = [
-  ["Beneficiary Name", "Kalindi College"],
-  ["Account Number", "10094813150"],
-  ["IFSC Code", "IDFB0020154"],
+  ["Beneficiary Name", "Shanti Education Research Foundation"],
+  ["Account Number", "071288700000576"],
+  ["IFSC Code", "YESB0000712"],
   ["SWIFT Code", "IDFBINBBMUM"],
-  ["Bank Name", "IDFC FIRST BANK"],
-  ["Branch", "University of Delhi BRANCH"],
+  ["Bank Name", "YES BANK"],
+  ["Branch", "Vidhyadhar Nagar, Jaipur 302023"],
 ];
 
 
