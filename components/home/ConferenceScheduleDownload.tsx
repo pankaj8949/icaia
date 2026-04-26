@@ -1,6 +1,6 @@
 export default function ConferenceScheduleDownload() {
-    const pdfUrl = "/downloads/IC-AIA%202026_Conference%20Schedule%20%26%20Presentation%20Codes.pdf";
-    const fileName = "IC-AIA 2026_Conference Schedule & Presentation Codes.pdf";
+    const pdfUrl = "/downloads/IC-AIHTM%202026_Conference%20Schedule%20%26%20Presentation%20Codes.pdf";
+    const fileName = "IC-AIHTM 2026_Conference Schedule & Presentation Codes.pdf";
 
     return (
         <section className="bg-[#f5f7fa] py-6 border-b border-gray-200">

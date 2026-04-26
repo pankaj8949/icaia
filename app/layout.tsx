@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'IC-AIA 2026',
-    template: '%s | IC-AIA 2026'
+    default: 'IC-AIHTM 2026',
+    template: '%s | IC-AIHTM 2026'
   },
   description: 'International Conference on Advanced Materials & Engineering for Sustainable Future',
   icons: {

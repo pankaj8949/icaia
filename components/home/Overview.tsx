@@ -8,7 +8,7 @@ export default function Overview() {
                 <SectionHeader title="Conference Overview" />
                 <div className="text-black text-lg text-justify space-y-4">
                     <p>
-                        The <strong>International Conference on Artificial Intelligence and Applications (IC-AIA 2026)</strong> aims
+                        The <strong>International Conference on Artificial Intelligence in Healthcare Technologies and Management (IC-AIHTM 2026)</strong> aims
                         to provide a global platform for researchers, academicians, industry experts, and practitioners to
                         exchange ideas, present innovations, and discuss emerging trends in Artificial Intelligence and its
                         interdisciplinary applications.

@@ -9,7 +9,7 @@ export default function ReviewProcessAndEthics() {
                 <div className="max-w-4xl mx-auto space-y-8 text-black">
                     <div className="bg-white p-6 md:p-8 rounded-lg shadow-md space-y-4 text-justify">
                         <p>
-                            The double-blind peer-review process will be adopted for IC-AIA 2026, organised by Kalindi College, University of Delhi to ensure the highest standards of academic integrity, fairness, and objectivity. In this system, both the authors and reviewers remain anonymous throughout the evaluation process. This structure eliminates potential biases related to identity, institution, nationality, seniority or reputation.
+                            The double-blind peer-review process will be adopted for IC-AIHTM 2026, organised by Kalindi College, University of Delhi to ensure the highest standards of academic integrity, fairness, and objectivity. In this system, both the authors and reviewers remain anonymous throughout the evaluation process. This structure eliminates potential biases related to identity, institution, nationality, seniority or reputation.
                         </p>
                         <p>
                             Upon submission, each manuscript undergoes an initial editorial screening to verify relevance to conference themes, compliance with formatting guidelines, and originality using plagiarism-detection tools. Submissions that pass this stage are assigned to two or more expert reviewers who possess specialised domain knowledge.
@@ -38,7 +38,7 @@ export default function ReviewProcessAndEthics() {
                         <h3 className="text-2xl font-bold text-black mb-6 text-center">Ethics and Malpractice Statement</h3>
                         <div className="bg-white p-6 md:p-8 rounded-lg shadow-md space-y-6 text-justify">
                             <p>
-                                IC-AIA 2026 is committed to maintaining the highest standards of publication ethics and professional responsibility. The conference follows internationally accepted guidelines to prevent unethical practices, academic misconduct, and compromise of scientific integrity.
+                                IC-AIHTM 2026 is committed to maintaining the highest standards of publication ethics and professional responsibility. The conference follows internationally accepted guidelines to prevent unethical practices, academic misconduct, and compromise of scientific integrity.
                             </p>
 
                             <div>
