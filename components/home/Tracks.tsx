@@ -9,75 +9,73 @@ import SectionHeader from "../common/SectionHeader";
 
 const TRACKS = [
   {
-    name: "Machine Learning and Deep Learning",
+    name: "Core AI & Computational Methods",
     subtopics: [
-      "Supervised and Unsupervised Learning",
-      "Neural Networks and Deep Architectures",
-      "Reinforcement Learning",
-      "Explainable AI",
+      "Machine Learning & Deep Learning",
+      "Data Science & Big Data Analytics",
+      "Natural Language Processing (NLP)",
+      "Computer Vision & Pattern Recognition",
     ]
   },
   {
-    name: "Data Science and Big Data Analytics",
+    name: "AI in Healthcare Technologies",
     subtopics: [
-      "Data Mining Techniques",
-      "Predictive Analytics",
-      "Business Intelligence",
-      "Big Data Frameworks (Hadoop, Spark)",
+      "AI for Medical Imaging & Diagnostics",
+      "Clinical Decision Support Systems",
+      "Predictive Analytics & Disease Modeling",
+      "Telemedicine & Remote Patient Monitoring",
     ]
   },
   {
-    name: "Artificial Intelligence in Healthcare",
+    name: "Health Informatics & Digital Health Systems",
     subtopics: [
-      "Medical Imaging and Diagnosis",
-      "AI in Drug Discovery",
-      "Telemedicine and Smart Healthcare",
-      "Health Data Analytics",
+      "Electronic Health Records (EHR) Analytics",
+      "Health Data Interoperability",
+      "IoT in Healthcare (Wearables, Sensors)",
+      "Smart Hospitals & Digital Ecosystems",
     ]
   },
   {
-    name: "AI in Business and Management",
+    name: "AI in Healthcare Management & Operations",
     subtopics: [
-      "AI in Marketing and Consumer Behavior",
-      "Financial Analytics and FinTech",
-      "Supply Chain Optimization",
-      "Decision Support Systems",
+      "Hospital Management Systems",
+      "Resource Optimization & Scheduling",
+      "Healthcare Supply Chain Analytics",
+      "Decision-Making Systems for Administrators",
     ]
   },
   {
-    name: "Natural Language Processing and Computer Vision",
+    name: "Ethics, Security & Governance",
     subtopics: [
-      "Text Mining and Sentiment Analysis",
-      "Chatbots and Conversational AI",
-      "Image Processing and Object Detection",
-      "Video Analytics",
+      "Ethical AI in Healthcare",
+      "Data Privacy & Cybersecurity",
+      "Bias, Fairness, and Explainability",
+      "Regulatory and Policy Frameworks",
     ]
   },
   {
-    name: "Robotics and Intelligent Systems",
+    name: "Robotics & Intelligent Medical Systems",
     subtopics: [
-      "Autonomous Systems",
-      "Human-Robot Interaction",
-      "Industrial Automation",
-      "Smart Manufacturing",
+      "Surgical Robotics",
+      "Rehabilitation Robotics",
+      "Intelligent Assistive Systems",
     ]
   },
   {
-    name: "AI for Smart Cities and Sustainability",
+    name: "AI in Business, Policy & Healthcare Economics",
     subtopics: [
-      "Smart Transportation Systems",
-      "Energy Optimization",
-      "Environmental Monitoring",
-      "Urban Planning using AI",
+      "AI-Driven Healthcare Business Models",
+      "Cost Optimization & Healthcare Economics",
+      "Policy, Governance, and Implementation Strategies",
     ]
   },
   {
-    name: "Cybersecurity and Ethical AI",
+    name: "Emerging & Interdisciplinary Areas",
     subtopics: [
-      "AI in Cybersecurity",
-      "Privacy and Data Protection",
-      "Bias and Fairness in AI",
-      "AI Governance and Regulations",
+      "AI for Public Health & Epidemiology",
+      "Smart Cities & Healthcare Integration",
+      "Sustainability in Healthcare Systems",
+      "Human-AI Collaboration in Medicine",
     ]
   },
 ];
