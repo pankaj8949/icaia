@@ -20,24 +20,28 @@ const welcomeCommittee = [
     { name: "Dr. Reena Jain", role: "Assistant Professor, Kalindi College, University of Delhi" },
     { name: "Dr. Rajani", role: "Assistant Professor, Kalindi College, University of Delhi" },
     { name: "Dr. Dharmendra Kumar Meena", role: "Assistant Professor (TIC), Kalindi College, University of Delhi" },
-    { name: "Mr. Rajeev Kumar Rai", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Prof. Rajeev Kumar Rai", role: "Assistant Professor, Kalindi College, University of Delhi" },
     { name: "Dr. Sushil Malik", role: "Assistant Professor, Kalindi College, University of Delhi" },
     { name: "Dr. Ruby Gupta", role: "Assistant Professor, Kalindi College, University of Delhi" },
-    { name: "Ms. Neha Singh", role: "Assistant Professor, Kalindi College, University of Delhi" },
-    { name: "Ms. Mamta", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Prof. Neha Singh", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Prof. Mamta", role: "Assistant Professor, Kalindi College, University of Delhi" },
     { name: "Dr. Anshula Sangwan", role: "Assistant Professor, Kalindi College, University of Delhi" },
-    { name: "Ms. Kanishka Solanki", role: "Assistant Professor, Kalindi College, University of Delhi" },
-    { name: "Mrs. Asha Khantwal", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
-    { name: "Mrs. Mamta Sachdeva", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
+    { name: "Prof. Kanishka Solanki", role: "Assistant Professor, Kalindi College, University of Delhi" },
+    { name: "Prof. Asha Khantwal", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
+    { name: "Prof. Mamta Sachdeva", role: "Senior Technical Assistant, Kalindi College, University of Delhi" },
 ];
 
 const technicalCommittee = [
-    { name: "Mr Rajeev Kumar Rai", role: "Kalindi College University of Delhi" },
-    { name: "Ms Neha Singh", role: "Kalindi College University of Delhi" },
-    { name: "Ms Mamta", role: "Kalindi College University of Delhi" },
-    { name: "Ms Kanishka Solanki", role: "Kalindi College University of Delhi" },
-    { name: "Ms Mamta Sachdeva", role: "Kalindi College University of Delhi" },
-    { name: "Asha Khantwal", role: "Kalindi College University of Delhi" },
+    { name: "Prof. Rajeev Kumar Rai", role: "Kalindi College, University of Delhi" },
+    { name: "Prof. Neha Singh", role: "Kalindi College, University of Delhi" },
+    { name: "Prof. Mamta", role: "Kalindi College, University of Delhi" },
+    { name: "Prof. Kanishka Solanki", role: "Kalindi College, University of Delhi" },
+    { name: "Prof. Niveen Abdelghaffar", role: "Kuwait Technical College, Kuwait" },
+    { name: "Dr. Manuel Malaver de la Fuente", role: "Maritime University of the Caribbean, Venezuela" },
+    { name: "Dr. Andreas Gimsa", role: "Stirling Technology Institut gemeinnützige GmbH, Potsdam, Germany" },
+    { name: "Dr. Ertan Gudekli", role: "Istanbul University, Turkey" },
+    { name: "Dr. Rajan Iyer", role: "Environmental Materials Theoretical Physics, Arizona, USA" },
+    { name: "Dr. Sidney Soares Filho", role: "University of Fortaleza (UNIFOR), Brazil" },
 ];
 
 const technicalSessionCommittee = [
@@ -145,6 +149,27 @@ const publicationCommittee = [
     { name: "Dr. Swati", role: "Kalindi College, University of Delhi" },
 ];
 
+const internationalSpeakers = [
+    { name: "Dr. Dalia Younis", role: "AASTMT University, Egypt" },
+    { name: "Prof. Leyla Hajiyeva", role: "Azerbaijan State University of Economics, Baku, Azerbaijan" },
+    { name: "Prof. Lala Hamidova", role: "Azerbaijan State University of Economics, Baku, Azerbaijan" },
+    { name: "Dr. Raya Karlibaeva", role: "Tashkent State University of Economics, Uzbekistan" },
+    { name: "Dr. Aysun Kahraman", role: "USA" },
+    { name: "Dr. Ashish Rastogi", role: "University of Technology and Applied Sciences - HCT, Oman" },
+    { name: "Prof. Niveen Abdelghaffar", role: "Kuwait Technical College, Kuwait" },
+    { name: "Dr. Manuel Malaver de la Fuente", role: "Maritime University of the Caribbean, Venezuela" },
+    { name: "Dr. Andreas Gimsa", role: "Stirling Technology Institut gemeinnützige GmbH, Potsdam, Germany" },
+    { name: "Dr. Ertan Gudekli", role: "Istanbul University, Turkey" },
+    { name: "Dr. Rajan Iyer", role: "Environmental Materials Theoretical Physics, Arizona, USA" },
+    { name: "Dr. Sidney Soares Filho", role: "University of Fortaleza (UNIFOR), Brazil" },
+    { name: "Dr. Gulshat Karlibaeva", role: "Tashkent State University of Economics, Uzbekistan" },
+    { name: "Dr. Liliana Guran", role: "Babeș-Bolyai University, Romania" },
+    { name: "Dr. Monika Bota", role: "Babeș-Bolyai University, Romania" },
+    { name: "Dr. Devendra Kumar", role: "CET, Oman" },
+    { name: "Dr. Magdalena Rzemieniak", role: "Lublin University of Technology, Poland" },
+    { name: "Dr. Leszek Ziora", role: "Częstochowa University of Technology, Poland" },
+];
+
 const Section = ({ title, members }: { title: string, members: { name: string, role: string }[] }) => (
     <section className="mb-16">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">{title}</h2>
@@ -165,6 +190,7 @@ export default function OtherCommitteesPage() {
                 dividerColor="primary"
             />
             <div className="max-w-7xl mx-auto px-4 py-12">
+                <Section title="International Speakers" members={internationalSpeakers} />
                 <Section title="Welcome Committee" members={welcomeCommittee} />
                 <Section title="Technical Committee" members={technicalCommittee} />
                 <Section title="Technical Session Committee" members={technicalSessionCommittee} />

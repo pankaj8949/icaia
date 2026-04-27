@@ -2,15 +2,21 @@ import SectionImageHeader from "../common/SectionImageHeader";
 
 const SPEAKERS = [
     {
-        name: "Dr. Ilona Paweloszek",
-        affiliation: "Częstochowa University of Technology",
-        country: "Poland",
-        img: "",
-    },
-    {
         name: "Dr. Dalia Younis",
         affiliation: "AASTMT University",
         country: "Egypt",
+        img: "",
+    },
+    {
+        name: "Prof. Leyla Hajiyeva",
+        affiliation: "Azerbaijan State University of Economics, Baku",
+        country: "Azerbaijan",
+        img: "",
+    },
+    {
+        name: "Prof. Lala Hamidova",
+        affiliation: "Azerbaijan State University of Economics, Baku",
+        country: "Azerbaijan",
         img: "",
     },
     {
@@ -23,6 +29,18 @@ const SPEAKERS = [
         name: "Dr. Aysun Kahraman",
         affiliation: "",
         country: "USA",
+        img: "",
+    },
+    {
+        name: "Dr. Ashish Rastogi",
+        affiliation: "University of Technology and Applied Sciences - HCT",
+        country: "Oman",
+        img: "",
+    },
+    {
+        name: "Prof. Niveen Abdelghaffar",
+        affiliation: "Kuwait Technical College",
+        country: "Kuwait",
         img: "",
     },
     {
@@ -93,57 +111,52 @@ const SPEAKERS = [
     },
 ];
 
-const LIST_OF_SPEAKERS = [
+const SPEAKERS_INDIA = [
     {
         name: "Dr. Nonita Sharma",
-        affiliation: "Associate Professor, IT Department, IGDTUW, Delhi",
+        affiliation: "IGDTUW, Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Sahil",
-        affiliation: "Assistant Professor, CSE Department, NIT Delhi",
+        affiliation: "NIT Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Ashema Hasti",
-        affiliation:
-            "Assistant Professor, Computer Science Department, Mata Sundri College for Women, University of Delhi",
+        affiliation: "Mata Sundri College for Women, University of Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Shikha Agarwal",
-        affiliation:
-            "Assistant Professor, Computer Science, IP College for Women, University of Delhi",
+        affiliation: "IP College for Women, University of Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Ankit Kumar Jaiswal",
-        affiliation:
-            "Assistant Professor, CSE (School of Engineering), Jawaharlal Nehru University (JNU), New Delhi",
+        affiliation: "Jawaharlal Nehru University (JNU), New Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Sakshi Taaresh Khanna",
-        affiliation:
-            "Assistant Professor, Computer Science, Ram Lal Anand College, University of Delhi",
+        affiliation: "Ram Lal Anand College, University of Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Shweta Sankhwar",
-        affiliation: "Assistant Professor, Computer Science, Maitreyi College",
+        affiliation: "Maitreyi College, Delhi",
         country: "India",
         img: "",
     },
     {
         name: "Dr. Aakanksha",
-        affiliation:
-            "Associate Professor, Computer Science, Shaheed Rajguru College of Applied Sciences for Women, University of Delhi",
+        affiliation: "University of Delhi",
         country: "India",
         img: "",
     },
@@ -174,11 +187,9 @@ export default function KeynoteSpeakers() {
                     ))}
                 </div>
 
-                <h2 className="text-2xl md:text-3xl font-bold mb-6 mt-14 text-center text-[#232335]">
-                    List of Speakers
-                </h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-6 mt-14 text-center text-[#232335]">Speakers</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8 justify-items-center">
-                    {LIST_OF_SPEAKERS.map((speaker) => (
+                    {SPEAKERS_INDIA.map((speaker) => (
                         <SpeakerCard key={speaker.name} speaker={speaker} />
                     ))}
                 </div>

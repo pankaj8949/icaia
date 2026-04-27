@@ -3,12 +3,24 @@ import AboutHeader from "@/components/common/AboutHeader";
 import CommitteeMemberGrid from "@/components/common/CommitteeMemberGrid";
 
 const organizingCommitteeMembers = [
-    { name: "Dr. Priyanka Bhatnagar", role: "Kalindi College, University of Delhi" },
-    { name: "Dr. Nidhi Puri", role: "Kalindi College, University of Delhi" },
-    { name: "Dr. Vanya", role: "Kalindi College, University of Delhi" },
-    { name: "Dr. Bharti", role: "Kalindi College, University of Delhi" },
-    { name: "Dr. Pankaj", role: "Kalindi College, University of Delhi" },
-    { name: "Dr. Lalit", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Rakesh M Patel", role: "Government College of Science, Gandhi Nagar, India" },
+    { name: "Dr. Indu Sharma", role: "NIMS University, Jaipur, India" },
+    { name: "Dr. Pankaj", role: "IILM University, Greater Noida, India" },
+    { name: "Dr. Rajeev", role: "IILM University, Greater Noida, India" },
+    { name: "Dr. Vandana Gupta", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Shalini Sharma", role: "Kalindi College, University of Delhi" },
+    { name: "Prof. (Dr.) Nidhi Arora", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Sweety Kataria", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Reena Jain", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Rajani", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Dharmendra Kumar Meena", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Sushil Malik", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Ruby Gupta", role: "Kalindi College, University of Delhi" },
+    { name: "Dr. Anshula Sangwan", role: "Kalindi College, University of Delhi" },
+    { name: "Mr. Rajeev Kumar Rai", role: "Kalindi College, University of Delhi" },
+    { name: "Ms. Neha Singh", role: "Kalindi College, University of Delhi" },
+    { name: "Ms. Mamta", role: "Kalindi College, University of Delhi" },
+    { name: "Ms. Kanishka Solanki", role: "Kalindi College, University of Delhi" },
 ];
 
 export default function OrganizingCommitteePage() {

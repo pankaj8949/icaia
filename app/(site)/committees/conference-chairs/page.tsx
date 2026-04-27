@@ -11,12 +11,27 @@ const chiefPatron = [
     }
 ];
 
-const specialGuest = [
+const patron = [
     {
         image: "/images/user.jpg",
         name: "Dr. Nihar Amonkar",
         role: "VC",
-        affiliation: "IILM University, University of Delhi, India",
+        affiliation: "IILM University, Greater Noida, India",
+    },
+];
+
+const guestOfHonour = [
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Munish Sabharwal",
+        role: "Director",
+        affiliation: "IILM University, Greater Noida",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Alok Aggarwal",
+        role: "Dean",
+        affiliation: "IILM University, Greater Noida",
     },
 ];
 
@@ -25,7 +40,30 @@ const conferenceChair: { image: string; name: string; role: string; affiliation:
 ];
 
 const internationalChair: { image: string; name: string; role: string; affiliation: string }[] = [
-    // To be updated with actual International Chair details
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Raya Karlibaeva",
+        role: "Professor",
+        affiliation: "Tashkent State University of Economics, Uzbekistan",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Dorota Jelonek",
+        role: "International Chair",
+        affiliation: "Czestochowa University of Technology, Poland",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Lilla Knop",
+        role: "Professor",
+        affiliation: "Silesian University of Technology, Poland",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Prof. Leyla Hajiyeva",
+        role: "International Chair",
+        affiliation: "Azerbaijan State University of Economics (UNEC), Azerbaijan",
+    },
 ];
 
 const conveners = [
@@ -43,34 +81,46 @@ const conveners = [
     },
     {
         image: "/images/user.jpg",
+        name: "Dr. Narendra Kumar",
+        role: "Convener",
+        affiliation: "IILM University, Greater Noida, India",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Rajeev Kumar",
+        role: "Convener",
+        affiliation: "IILM University, Greater Noida, India",
+    },
+    {
+        image: "/images/user.jpg",
         name: "Dr. Sushil Malik",
-        role: "Co Convener",
+        role: "Co-Convener",
         affiliation: "Kalindi College, University of Delhi",
     },
     {
         image: "/images/user.jpg",
         name: "Dr. Reena Jain",
-        role: "Co Convener",
+        role: "Co-Convener",
         affiliation: "Kalindi College, University of Delhi",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Pankaj",
+        role: "Co-Convener",
+        affiliation: "IILM University, Greater Noida, India",
+    },
+    {
+        image: "/images/user.jpg",
+        name: "Dr. Himanshu Sharma",
+        role: "Co-Convener",
+        affiliation: "IILM University, Greater Noida, India",
     },
 ];
 
 const organizingSecretaries = [
     {
         image: "/images/user.jpg",
-        name: "Dr. Vendna Gupta",
-        role: "Organising Secretary",
-        affiliation: "Kalindi College, University of Delhi",
-    },
-    {
-        image: "/images/user.jpg",
-        name: "Dr. Shalini Sharma",
-        role: "Organising Secretary",
-        affiliation: "Kalindi College, University of Delhi",
-    },
-    {
-        image: "/images/user.jpg",
-        name: "Dr. Sweety Kataria",
+        name: "Ms. Neha Singh",
         role: "Organising Secretary",
         affiliation: "Kalindi College, University of Delhi",
     },
@@ -78,7 +128,7 @@ const organizingSecretaries = [
         image: "/images/user.jpg",
         name: "Dr. Rajani",
         role: "Organising Secretary",
-        affiliation: "IILM University, University of Delhi",
+        affiliation: "Kalindi College, University of Delhi",
     },
     {
         image: "/images/user.jpg",
@@ -88,9 +138,9 @@ const organizingSecretaries = [
     },
     {
         image: "/images/user.jpg",
-        name: "Prof. (Dr.) Nidhi Arora ",
+        name: "Dr. Narendra Kumar",
         role: "Organising Secretary",
-        affiliation: "Kalindi College, University of Delhi",
+        affiliation: "IILM University, Greater Noida",
     },
 ];
 
@@ -363,14 +413,19 @@ export default function ConferenceChairPage() {
                     image: m.image
                 }))} />
 
-                <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Special Guest</h2>
-                <CommitteeMemberGrid members={specialGuest.map(m => ({
+                <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Patron</h2>
+                <CommitteeMemberGrid members={patron.map(m => ({
                     name: m.name,
                     role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
                     image: m.image
                 }))} />
-                <br />
-                <br />
+
+                <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Guest of Honour</h2>
+                <CommitteeMemberGrid members={guestOfHonour.map(m => ({
+                    name: m.name,
+                    role: `${m.role}${m.affiliation ? `, ${m.affiliation}` : ""}`,
+                    image: m.image
+                }))} />
                 {conferenceChair.length > 0 && (
                     <>
                         <h2 className="text-3xl md:text-4xl font-bold mb-8 mt-16">Conference Chair</h2>
